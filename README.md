@@ -62,7 +62,7 @@ src
 
 Of those files, the ones under `src` are most interesting. Briefly:
 
-* `PosenetExtension.java` - Boilerplate extension code for a TFJS extneion in App Inventor. You will want to customize it to provide model-specific behavior, such as interpreting the results before passing information back to the blocks layer.
+* `PosenetExtension.java` - Boilerplate extension code for a TFJS extension in App Inventor. You will want to customize it to provide model-specific behavior, such as interpreting the results before passing information back to the blocks layer.
 * `app.js` - Boilerplate Javascript code to load the model and interact with the Java code in the App Inventor extension. You will need to modify this to interact correctly with the TFJS model, such as calling the correct method to start the model and interpret its output for App Inventor.
 * `group-*.bin` - These are the weights at each level of the model, pulled from the TFJS model repository. The number of files will vary based on the size of the model.
 * `index.html` - The index.html file loads all of the prerequisite Javascript files. It generally does not need to be modified.
